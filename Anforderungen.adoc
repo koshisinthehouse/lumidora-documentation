@@ -1,0 +1,33 @@
+= Anforderungen
+
+In diesem Abschnitt geht es um die Anforderungen, welch ai-assistant erfüllen soll.
+
+== Kernaufgabe des Systems
+
+ai-assistant soll eine einfache und schnelle Verwendung von aktuellen Open Source AI Projekten ermöglichen.
+Er soll die Fähigkeiten dieser Projekte bündeln und schlußendlich ein digitaler Assistent und Content Erzeuger
+mithilfe dieser Tools werden. Er soll mindestens folgende Fähigkeiten haben
+
+* Text to Speech
+* Speech to Text
+* Text to Image
+* Audio to Movie
+* Text 2 Image
+
+== Kategorie des Systems
+
+Es handelt sich um ein System, welches hauptsächlich auf künstlicher Intelligenz beruht.
+Es soll nützliche Open Source AI Tools verknüpfen und dem Benutzer einen extremen Mehrwert bieten,
+sowohl im privaten, wie auch im Beruflichen. Das Tool soll in der Lage sein, verschiedenste Arten von Kontent
+möglichst autonom erzeugen zu können.
+
+
+== Wesentliche Qualitätsanforderungen
+
+
+
+
+[,ruby]
+----
+puts 'Hello, World!'
+----

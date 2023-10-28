@@ -1,0 +1,1 @@
+pip install pip cython setuptools wheel tts -U
