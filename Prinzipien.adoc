@@ -1,0 +1,15 @@
+= Prinzipien
+
+Für dieses Projekt wird nur Open Source Software verwendet.
+
+[plantuml]
+----
+@startuml
+class Car {
+  +start()
+  +stop()
+}
+@enduml
+----
+
+
