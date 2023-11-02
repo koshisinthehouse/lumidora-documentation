@@ -30,9 +30,11 @@ möglichst autonom erzeugen zu können.
 
 == Stakeholder
 Im weiten ist jeder Stakeholder, welcher sich von AI unterstützen lassen will.
-Im engeren Sinne, sind die Stakeholer, welche mit AI Kontent jeglicher Art in jeglicher Medialen Ausprägung
-(Audio, Video, Schriftlich, Bildlich) erstellen möchten.
+Im engeren Sinne, sind die Stakeholer, welche mit AI Kontent jeglicher Art in jeglicher Medialen Ausprägung (Audio, Video, Schriftlich, Bildlich) erstellen möchten.
 
+=== Mögliche Stakeholder
+* Content Creator
+* Jedermann der mit dem PC arbeitet
 
 
 [,ruby]

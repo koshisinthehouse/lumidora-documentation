@@ -1,18 +1,21 @@
+$SOURCE_PATH = "D:"
+$SOURCE_TOOLS_PATH = "$SOURCE_PATH/tools"
 
 $EXECUTE_PATH = Split-Path $MyInvocation.MyCommand.Path
 $DIST_PATH = "$EXECUTE_PATH/dist"
 
 # Entferne das Verzeichnis "dist", wenn es vorhanden ist
-#Remove-Item -Recurse -Force -ErrorAction SilentlyContinue dist
+Remove-Item -Recurse -Force -ErrorAction SilentlyContinue dist
 
 # Erstelle das Verzeichnis "dist"
-#New-Item -ItemType Directory -Path ./dist
-
-# Wechsle in das "dist"-Verzeichnis; beende das Skript, wenn der Wechsel fehlschlägt
-
+New-Item -ItemType Directory -Path ./dist
 
 #ffmpeg - START
-Invoke-Expression "$EXECUTE_PATH\envPath.ps1 -PATH '$EXECUTE_PATH/tools/ffmpeg'"
+
+$TOOLS_PATH = "$DIST_PATH/tools/"
+Expand-Archive -Path "$SOURCE_TOOLS_PATH/ffmpeg.zip" -DestinationPath $TOOLS_PATH
+Invoke-Expression "$EXECUTE_PATH\envPath.ps1 -PATH '$TOOLS_PATH/ffmpeg/bin'"
+
 #ffmpeg - ENDE
 
 
@@ -20,10 +23,9 @@ Invoke-Expression "$EXECUTE_PATH\envPath.ps1 -PATH '$EXECUTE_PATH/tools/ffmpeg'"
 
 $PYTHON_PATH = "$DIST_PATH/python"
 
-Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.8.0/python-3.8.0-embed-amd64.zip" -OutFile "python-3.8.0-embed-amd64.zip"
-Expand-Archive -Path "python-3.8.0-embed-amd64.zip" -DestinationPath $PYTHON_PATH
+Expand-Archive -Path "$SOURCE_TOOLS_PATH/python-3.9.0-embed-amd64.zip" -DestinationPath $PYTHON_PATH
 
-Add-Content -Path "$PYTHON_PATH/python38._pth" -Value ".\lib\site-packages"
+Add-Content -Path "$PYTHON_PATH/python39._pth" -Value ".\lib\site-packages"
 
 Invoke-Expression "$EXECUTE_PATH\envPath.ps1 -PATH '$PYTHON_PATH'"
 Invoke-Expression "$EXECUTE_PATH\envPath.ps1 -PATH '$PYTHON_PATH'"

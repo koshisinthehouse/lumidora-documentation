@@ -4,6 +4,9 @@ In diesem Abschnitt geht es um die Randbedingunen, welch für die Anwendung ai-a
 
 == Technische Randbedingungen
 
+Das Projekt soll nur auf Open Source Software beruhen und lokal, ohne Internet lauffähig sein.
+
+
 === Zielhardware
 
 ==== Prozessor, RAM
