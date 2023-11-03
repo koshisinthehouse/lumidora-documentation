@@ -12,7 +12,7 @@ ui:
     snapshot: true
   supplemental_files:
     - path: partials/header-content.hbs
-      contents: ui/custom-ui/partials/head-meta.hbs
+      contents: ./supplemental-ui/partials/head-meta.hbs
     - path: ui.yml
       contents: |
         static_files:
