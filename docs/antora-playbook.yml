@@ -1,6 +1,6 @@
 site:
-  title: Antora Docs
-  start_page: component-b::index.adoc
+  title: Lumidora Docs
+  start_page: anforderungen::index.adoc
 content:
   sources:
     - url: https://github.com/koshisinthehouse/Lumidora.git
