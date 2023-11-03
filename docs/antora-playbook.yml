@@ -1,6 +1,6 @@
 site:
   title: Lumidora Docs
-  start_page: anforderungen::index.adoc
+  start_page: ROOT::index.adoc
 content:
   sources:
     - url: https://github.com/koshisinthehouse/Lumidora.git
