@@ -1,7 +1,6 @@
-# ai-assistant
-ai assistant with python
+# lumidora-documentation
+Arc 42 Dokumentation zu finden hier: https://koshisinthehouse.github.io/lumidora-documentation/lumidora/1/index.html
 
-https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/samples/C4CoreDiagrams.md
 
 
 
