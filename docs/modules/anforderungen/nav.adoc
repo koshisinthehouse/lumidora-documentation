@@ -1,1 +1,1 @@
-* xref:obc.adoc
+* xref:obc.adoc[]
