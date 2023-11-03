@@ -14,5 +14,5 @@ jobs:
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
-          folder: docs/build
-          target-folder: /
+          folder: docs/build/site/lumidora/1
+          target-folder: /docs
