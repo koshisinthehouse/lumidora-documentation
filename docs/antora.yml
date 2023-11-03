@@ -6,7 +6,3 @@ nav:
   - modules/obc.adoc
   - modules/ROOT/nav.adoc
   - modules/anforderungen/nav.adoc
-nav:
-  - modules/obc.adoc
-  - modules/ROOT/nav.adoc
-  - modules/anforderungen/nav.adoc
