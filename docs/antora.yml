@@ -1,7 +1,8 @@
-name: anforderungen
-title: Anforderungen
+name: lumidora
+title: Lumidora
 version: 2.5
 prerelease: -beta.1
 nav:
-- modules/ROOT/nav.adoc
-- modules/anforderungen/nav.adoc
+  - Organisatorische_Randbedingungen.adoc
+  - modules/ROOT/nav.adoc
+  - modules/anforderungen/nav.adoc
