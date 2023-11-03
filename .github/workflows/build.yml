@@ -12,6 +12,7 @@ jobs:
       - run: cd docs-site && npm run generate
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
           folder: docs/build
           target-folder: /
