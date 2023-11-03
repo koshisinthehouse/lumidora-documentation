@@ -11,7 +11,8 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files:
-    - ui: custom-ui
+    - path: partials/header-content.hbs
+      contents: ./supplemental-ui/partials/head-meta.hbs
     - path: ui.yml
       contents: |
         static_files:
