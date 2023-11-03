@@ -15,7 +15,7 @@ The playbook and instructions for the Demo site are located in the {url-site-rea
 == Resources
 
 * {url-project}[Antora Project Site]
-* {url-docs}[Antora Docs]
+* {url-docs}[Lumidora]
 * {url-org}[Antora Repositories]
 
 == Copyright and License

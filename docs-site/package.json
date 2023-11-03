@@ -16,7 +16,7 @@
   },
   "author": "Dominik Bruhn",
   "scripts": {
-    "start": "npx antora --fetch antora-playbook.yml",
+    "generate": "npx antora --fetch ../docs/antora-playbook.yml",
     "preversion": "",
     "new-patch": "npm version patch -m \"new patch version: %s\" --force",
     "new-minor": "npm version minor -m \"new minor version: %s\" --force",
