@@ -5,4 +5,5 @@ prerelease: -beta.1
 nav:
   - modules/anforderungen/obc.adoc
   - modules/ROOT/nav.adoc
+  - modules/ROOT/anforderungen/nav.adoc
   - modules/anforderungen/nav.adoc
