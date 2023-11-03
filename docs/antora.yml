@@ -3,7 +3,7 @@ title: Lumidora
 version: 2.5
 prerelease: -beta.1
 nav:
-  - modules/anforderungen/obc.adoc
+  - modules/anforderungen/organisatorische-randbdingungen.adoc
   - modules/ROOT/nav.adoc
   - modules/ROOT/anforderungen/nav.adoc
   - modules/anforderungen/nav.adoc

@@ -1,8 +1,10 @@
 = Randbedingungen
+= Technische Randbedingungen
+:navtitle: Technisch
+
 
 In diesem Abschnitt geht es um die Randbedingunen, welch für die Anwendung ai-assistant gelten.
 
-== Technische Randbedingungen
 
 Das Projekt soll nur auf Open Source Software beruhen und lokal, ohne Internet lauffähig sein.
 

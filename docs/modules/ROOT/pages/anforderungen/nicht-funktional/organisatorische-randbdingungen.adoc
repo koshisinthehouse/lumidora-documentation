@@ -1,5 +1,5 @@
 = Organisatorische Randbedingungen
-:navtitle: Organisatorische Randbedingungen
+:navtitle: Organisatorisch
 
 [quote,Conways Law, How Do Committees Invent?]
 Organisationen, die Systeme entwerfen, […] sind gezwungen, Entwürfe zu erstellen, die die Kommunikationsstrukturen dieser Organisationen abbilden.

@@ -1,8 +1,12 @@
 * xref:index.adoc[]
-* xref:anforderungen.adoc[]
 
-.List title
-* List item
-* List item
-** xref:obc.adoc[]
+.Anforderungen
+* xref:anforderungen/funktional/funktionale-anforderungen.adoc[]
+* Nicht Funktional
+** xref:anforderungen/qualitaet.adoc[]
+** Randbedingungen
+*** xref:anforderungen/nicht-funktional/organisatorische-randbdingungen.adoc[]
+*** xref:anforderungen/nicht-funktional/technische-randbedingungen.adoc[]
 
+.Architekturentscheidungen
+** xref:architekturentscheidungen/open-source.adoc[]

@@ -1,4 +1,5 @@
-= Architekturentscheidungen
+= Open Source Lösungen verwenden
+:navtitle: Open Source
 
 == Fragestellung
 === Was genau ist das Problem ?

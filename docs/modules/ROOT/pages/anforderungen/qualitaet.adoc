@@ -1,4 +1,5 @@
 = Qualitätsanforderungen
+:navtitle: Qualität
 
 In diesem Abschnitt geht es um die Qualitätsanforderungen, welche an ai-assistant gestellt werden.
 Um Qualitätsanforderungen strukturiert zu erheben, helfen uns Qualitätsmodelle. Ein weitverbreitetes Qualitätsmodell ist der ISO 25010-Standard.

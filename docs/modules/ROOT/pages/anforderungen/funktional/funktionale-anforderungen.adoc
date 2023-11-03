@@ -1,5 +1,5 @@
 = Anforderungen
-:navtitle: Anforderungen
+:navtitle: Funktional
 
 https://docs.asciidoctor.org/asciidoc/latest/
 
