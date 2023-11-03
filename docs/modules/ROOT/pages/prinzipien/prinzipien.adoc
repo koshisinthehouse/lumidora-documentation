@@ -1,6 +1,8 @@
 = Prinzipien
 
 == Allgemeine Prinzipien
+:navtitle: Prinzipien
+
 * Für dieses Projekt wird nur Open Source Software verwendet.
 * Technische Vielfalt wird kontrolliert um Komplexität zu reduzieren
 * Einfache Lösungen: Die Lösung muss so einfach wie möglich sein. Gibt es Komplexität, wird diese möglichst hinter einem einfachen Interface versteckt.

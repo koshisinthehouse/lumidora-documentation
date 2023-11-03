@@ -1,5 +1,7 @@
 * xref:index.adoc[]
 
+* xref:prinzipien/prinzipien.adoc[]
+
 .Anforderungen
 * xref:anforderungen/funktional/funktionale-anforderungen.adoc[]
 * Nicht Funktional
