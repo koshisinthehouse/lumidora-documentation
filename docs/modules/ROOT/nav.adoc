@@ -10,7 +10,7 @@
 *** xref:anforderungen/nicht-funktional/organisatorische-randbdingungen.adoc[]
 *** xref:anforderungen/nicht-funktional/technische-randbedingungen.adoc[]
 
-* xref:systemkontext.adoc[]
+* xref:systemkontext/systemkontext.adoc[]
 
 .Architekturentscheidungen
 ** xref:architekturentscheidungen/open-source.adoc[]
