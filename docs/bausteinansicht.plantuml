@@ -5,11 +5,11 @@
 
 LAYOUT_WITH_LEGEND()
 
-title Bausteindiagramm für ai-assistant
+title Bausteindiagramm für lumidora
 
 Person(benutzer, "User", "")
 
-Container_Boundary(api, "ai-assistant") {
+Container_Boundary(api, "lumidora") {
     Component(tts, "TTS", "Text to Speech", "Wandelt Text in Sprache")
     Component(stt, "STT", "Speech to Text", "Wandelt Sprache in Text")
     Component(chatbot, "Chatbot", "Chatbot", "Herz des Systems. Hat Schnittstellen zu allen anderen Bausteinen")

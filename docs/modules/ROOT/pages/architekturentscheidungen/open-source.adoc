@@ -6,10 +6,10 @@
 Ein Ziel dieses Systems ist es, das es autark, ohne Internet und ohne fremde Dienste, nur mit Open Source Lösungen funktioniert. Da aktuell Open Source Alternativen noch nicht in allen Bereichen die Qualität bieten, welche Closed Source Alternativen bieten, wird befürchtet, dass eine zufriedenstellende Erstellungsqualität mit Open Source Lösungen alleine nicht erreicht werden kann.
 
 === Warum ist es für die Architektur relevant ?
-Zentrale Bausteine des ai-assistant sind externe Open Source Projekte und Lösungen. Stellt sich zu einem späteren Zeitpunkt heraus, das einige, speziell der Chatbot, keine ausreichend gute Qualität liefern, wenn sie mit Open Source Lösungen umgesetzt werden, ist dies Projektentscheidend.
+Zentrale Bausteine des lumidora sind externe Open Source Projekte und Lösungen. Stellt sich zu einem späteren Zeitpunkt heraus, das einige, speziell der Chatbot, keine ausreichend gute Qualität liefern, wenn sie mit Open Source Lösungen umgesetzt werden, ist dies Projektentscheidend.
 
 === Welche Auswirkungen hat die Entscheidung ?
-Sie ist Projektentscheidend, da die wichtigste Eigenschaft des ai-assistant ist, nützlichen, qualitativ hochwertigen Output für den Benutzer zu liefern.
+Sie ist Projektentscheidend, da die wichtigste Eigenschaft des lumidora ist, nützlichen, qualitativ hochwertigen Output für den Benutzer zu liefern.
 
 == Einflussfaktoren
 === Welche Randbedingungen haben wir einzuhalten

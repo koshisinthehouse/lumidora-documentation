@@ -5,10 +5,10 @@
 
 LAYOUT_WITH_LEGEND()
 
-title Systemkontextdiagramm für ai-assistant
+title Systemkontextdiagramm für lumidora
 
 Person(benutzer, "User", "")
-System(aiassistant, "ai-assistant", "Persönlicher Assistent auf Basis künstlicher Intelligenz")
+System(aiassistant, "lumidora", "Persönlicher Assistent auf Basis künstlicher Intelligenz")
 
 Rel(benutzer, aiassistant, "verwendet")
 @enduml

@@ -4,7 +4,7 @@
 [quote,Conways Law, How Do Committees Invent?]
 Organisationen, die Systeme entwerfen, […] sind gezwungen, Entwürfe zu erstellen, die die Kommunikationsstrukturen dieser Organisationen abbilden.
 
-In diesem Abschnitt geht es um die Organisatorischen Randbedingunen, welch für die Anwendung ai-assistant gelten.
+In diesem Abschnitt geht es um die Organisatorischen Randbedingunen, welch für die Anwendung lumidora gelten.
 
 == Organisation
 === Organisationsstruktur der Auftraggeber

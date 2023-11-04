@@ -1,6 +1,7 @@
 * xref:index.adoc[]
 
 * xref:prinzipien/prinzipien.adoc[]
+* xref:systemkontext/systemkontext.adoc[]
 
 .Anforderungen
 * xref:anforderungen/funktional/funktionale-anforderungen.adoc[]
@@ -9,8 +10,6 @@
 ** Randbedingungen
 *** xref:anforderungen/nicht-funktional/organisatorische-randbdingungen.adoc[]
 *** xref:anforderungen/nicht-funktional/technische-randbedingungen.adoc[]
-
-* xref:systemkontext/systemkontext.adoc[]
 
 .Architekturentscheidungen
 ** xref:architekturentscheidungen/open-source.adoc[]

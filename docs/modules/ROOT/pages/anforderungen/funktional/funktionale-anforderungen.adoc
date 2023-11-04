@@ -4,11 +4,11 @@
 https://docs.asciidoctor.org/asciidoc/latest/
 
 
-In diesem Abschnitt geht es um die Anforderungen, welch ai-assistant erfüllen soll.
+In diesem Abschnitt geht es um die Anforderungen, welch lumidora erfüllen soll.
 
 == Kernaufgabe des Systems
 
-ai-assistant soll eine einfache und schnelle Verwendung von aktuellen Open Source AI Projekten ermöglichen.
+lumidora soll eine einfache und schnelle Verwendung von aktuellen Open Source AI Projekten ermöglichen.
 Er soll die Fähigkeiten dieser Projekte bündeln und schlußendlich ein digitaler Assistent und Content Erzeuger
 mithilfe dieser Tools werden. Er soll mindestens folgende Fähigkeiten haben
 

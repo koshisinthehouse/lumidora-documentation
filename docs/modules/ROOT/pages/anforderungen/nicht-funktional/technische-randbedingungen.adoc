@@ -3,7 +3,7 @@
 :navtitle: Technisch
 
 
-In diesem Abschnitt geht es um die Randbedingunen, welch für die Anwendung ai-assistant gelten.
+In diesem Abschnitt geht es um die Randbedingunen, welch für die Anwendung lumidora gelten.
 
 
 Das Projekt soll nur auf Open Source Software beruhen und lokal, ohne Internet lauffähig sein.
@@ -12,24 +12,24 @@ Das Projekt soll nur auf Open Source Software beruhen und lokal, ohne Internet l
 === Zielhardware
 
 ==== Prozessor, RAM
-Da ai-assistant auch lokal laufen soll und ai Anwendungen hohe Hardwareanforderungen haben gibt es folgende Mindestanforderungen:
+Da lumidora auch lokal laufen soll und ai Anwendungen hohe Hardwareanforderungen haben gibt es folgende Mindestanforderungen:
 
 - Moderner CPU i9 9X
 - NVidia Grafikkarte mit mindestens 8 GB Arbeitsspeicher
 - Mindestens 16 GB Ram
 
-ai-assistant wird auch auf weniger Hardware lauffähig sein, es wird jedoch davon abgeraten.
+lumidora wird auch auf weniger Hardware lauffähig sein, es wird jedoch davon abgeraten.
 
 ==== Netwerk und Firewalls
 Besondere Randbedingungen für Netwerk und Firewall gelten nicht.
 
 === Softwarevorgaben
 ==== Betriebssystem
-ai-assistant wird hauptsächlich für Linux entwickelt und soll schlussendlich in Docker-Containern lauffähig sein.
+lumidora wird hauptsächlich für Linux entwickelt und soll schlussendlich in Docker-Containern lauffähig sein.
 
 ==== Datenbanken
 
-Aktuell ist eine Zwischenspeicherung im ersten Iterationsschritt nicht angedacht. Vorstellbar ist dies aber in Zukunft um dem ai-assistant eine Art Gedächtnis zu verschaffen.
+Aktuell ist eine Zwischenspeicherung im ersten Iterationsschritt nicht angedacht. Vorstellbar ist dies aber in Zukunft um dem lumidora eine Art Gedächtnis zu verschaffen.
 
 ==== Middleware
 Keine Middleware nötig
@@ -57,16 +57,16 @@ Da es sich zunächst um eine Anwendung handelt, welche Lokal für einzelne Benut
 
 === Betriebliche Aspekte
 ==== On-Premise oder Cloud
-Zunächst soll ai-assistant lokal lauffähig sein. Durch die Anforderung Dockerkompatibel zu sein, ist eine einfache On-Premise, bzw. Cloud Integration schnell möglich.
+Zunächst soll lumidora lokal lauffähig sein. Durch die Anforderung Dockerkompatibel zu sein, ist eine einfache On-Premise, bzw. Cloud Integration schnell möglich.
 
 ==== Online- oder Batchbetrieb
-ai-assistant soll in Echtzeit mit dem Benutzer interagieren können, aber auch Aufgaben asynchron, bspl. über Nacht erledigen können. Daher soll sowhol ein Online, wie auch ein Batchbetrieb möglich sein.
+lumidora soll in Echtzeit mit dem Benutzer interagieren können, aber auch Aufgaben asynchron, bspl. über Nacht erledigen können. Daher soll sowhol ein Online, wie auch ein Batchbetrieb möglich sein.
 
 ==== Betriebskosten
 Solange die Software lokal läuft, fallen keine Betriebskosten an, sondern lediglich die Initialen Hardwarekosten beim Kauf.
 
 ==== Verfügbarkeit / Support
-Verfügbarkeit im Lokalen Umfeld nicht relevant. Wenn ai-assistant On-Premise oder in der Cloud betrieben werden soll, muss sich der jeweilige Betreiber darum kümmern.
+Verfügbarkeit im Lokalen Umfeld nicht relevant. Wenn lumidora On-Premise oder in der Cloud betrieben werden soll, muss sich der jeweilige Betreiber darum kümmern.
 
 ==== Wartungsfenster
 Keine Wartungsfenster notwendig.
