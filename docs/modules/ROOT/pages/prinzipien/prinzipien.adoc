@@ -1,7 +1,7 @@
 = Prinzipien
+:navtitle: Prinzipien
 
 == Allgemeine Prinzipien
-:navtitle: Prinzipien
 
 * Für dieses Projekt wird nur Open Source Software verwendet.
 * Technische Vielfalt wird kontrolliert um Komplexität zu reduzieren
