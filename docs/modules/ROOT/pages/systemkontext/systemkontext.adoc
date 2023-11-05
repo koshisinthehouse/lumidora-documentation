@@ -1,14 +1,20 @@
 = Systemkontext
 :navtitle: Systemkontext
 
-[plantuml, xxx, svg]
+
+[plantuml]
 ----
-include::example$systemkontext.plantuml[]
+@startuml
+!include ../partials/diagrams/plantuml-stdlib/C4-PlantUML/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title Systemkontextdiagramm für lumidora
+
+Person(benutzer, "User", "")
+System(aiassistant, "lumidora", "Persönlicher Assistent auf Basis künstlicher Intelligenz")
+
+Rel(benutzer, aiassistant, "verwendet")
+@enduml
 ----
 
-https://github.com/yuzutech/kroki/issues/578
-
-[plantuml, bar, svg]
-....
-include::example$a.puml[]
-....

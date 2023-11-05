@@ -1,15 +1,11 @@
-= Randbedingungen
-= Technische Randbedingungen
 :navtitle: Technisch
+= Randbedingungen
 
-
-In diesem Abschnitt geht es um die Randbedingunen, welch für die Anwendung lumidora gelten.
-
-
-Das Projekt soll nur auf Open Source Software beruhen und lokal, ohne Internet lauffähig sein.
-
+== Technische Randbedingungen
+In diesem Abschnitt geht es um die Randbedingunen, welch für die Anwendung lumidora gelten. Das Projekt soll nur auf Open Source Software beruhen und lokal, ohne Internet lauffähig sein.
 
 === Zielhardware
+ddd
 
 ==== Prozessor, RAM
 Da lumidora auch lokal laufen soll und ai Anwendungen hohe Hardwareanforderungen haben gibt es folgende Mindestanforderungen:
