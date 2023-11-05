@@ -5,3 +5,10 @@
 ----
 include::partial$diagrams/systemkontext.plantuml[]
 ----
+
+
+
+[plantuml, bar, svg]
+....
+include::example$a.puml[]
+....
