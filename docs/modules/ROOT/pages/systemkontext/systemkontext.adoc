@@ -1,7 +1,7 @@
 = Systemkontext
 :navtitle: Systemkontext
 
-[plantuml]
+[plantuml, bar, svg]
 ----
 include::partial$diagrams/systemkontext.plantuml[]
 ----
