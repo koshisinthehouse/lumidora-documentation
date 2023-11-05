@@ -3,7 +3,7 @@
 
 [plantuml, xxx, svg]
 ----
-include::partial$diagrams/systemkontext.plantuml[]
+include::example$systemkontext.plantuml[]
 ----
 
 
