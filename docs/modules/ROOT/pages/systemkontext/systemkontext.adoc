@@ -3,5 +3,5 @@
 
 [plantuml]
 ----
-include::systemkontext.plantuml[]
+include::partial$diagrams/systemkontext.plantuml[]
 ----
