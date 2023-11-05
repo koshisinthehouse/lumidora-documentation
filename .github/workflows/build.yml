@@ -14,7 +14,7 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: java -version
-      - run: cd docs-site && npm run generate
+      - run: cd docs-site && npm i && npm run generate
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
