@@ -6,7 +6,7 @@
 include::example$systemkontext.plantuml[]
 ----
 
-
+https://github.com/yuzutech/kroki/issues/578
 
 [plantuml, bar, svg]
 ....
