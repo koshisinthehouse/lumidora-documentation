@@ -134,7 +134,20 @@
 <h1 class="page">Systemkontext</h1>
 <div class="listingblock">
 <div class="content">
-<pre>Unresolved include directive in modules/ROOT/pages/systemkontext/systemkontext.adoc - include::systemkontext.plantuml[]</pre>
+<pre>@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title Systemkontextdiagramm für lumidora
+
+Person(benutzer, "User", "")
+System(aiassistant, "lumidora", "Persönlicher Assistent auf Basis künstlicher Intelligenz")
+
+Rel(benutzer, aiassistant, "verwendet")
+@enduml</pre>
 </div>
 </div>
 </article>
