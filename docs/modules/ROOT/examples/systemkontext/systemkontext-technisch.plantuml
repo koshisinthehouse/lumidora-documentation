@@ -1,14 +1,12 @@
 @startuml
-!include ../partials/diagrams/plantuml-stdlib/C4-PlantUML/C4_Deployment.puml
+!include ../../partials/diagrams/plantuml-stdlib/C4-PlantUML/C4_Deployment.puml
 
 title Systemkontext Technisch "Wie""
 
 System(http_client, "HTTP Client", "Kommandoeingabe über HTTP Client")
-
-component "lumidora"
+System(lumidora, "Lumidora", "Persönlicher Assistent auf Basis künstlicher Intelligenz")
 
 Rel(http_client, lumidora, "async/https", "async api call via https")
-
 
 SHOW_LEGEND()
 

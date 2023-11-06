@@ -27,12 +27,12 @@ _Notiz: Funktional mit UML-Klassendiagramm. Technisch mit Verteilungsdiagramm (D
 
 [plantuml]
 ----
-include::example$systemkontext-funktional.plantuml[]
+include::example$systemkontext/systemkontext-funktional.plantuml[]
 ----
 
 == Technischer Kontext
 
 [plantuml]
 ----
-include::example$systemkontext-technisch.plantuml[]
+include::example$systemkontext/systemkontext-technisch.plantuml[]
 ----

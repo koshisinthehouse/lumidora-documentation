@@ -21,3 +21,6 @@ ui:
 asciidoc:
   extensions:
     - asciidoctor-kroki
+antora:
+  extensions:
+    - '@antora/pdf-extension'

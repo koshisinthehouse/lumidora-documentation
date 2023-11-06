@@ -14,5 +14,5 @@ jobs:
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
-          folder: docs/build/site
+          folder: docs/build
           target-folder: /

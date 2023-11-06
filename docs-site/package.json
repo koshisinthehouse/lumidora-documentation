@@ -11,6 +11,8 @@
   "devDependencies": {
     "@antora/cli": "3.1.4",
     "@antora/site-generator": "3.1.4",
+    "@antora/pdf-extension": "1.0.0-alpha.6",
+    "asciidoctor-pdf": "1.0.0-alpha.16",
     "asciidoctor-kroki": "0.18.1"
   },
   "dependencies": {
