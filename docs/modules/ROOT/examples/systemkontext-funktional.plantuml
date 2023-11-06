@@ -3,7 +3,7 @@
 
 LAYOUT_WITH_LEGEND()
 
-title Systemkontextdiagramm für lumidora
+title Systemkontext Funktional "Was""
 
 Person(benutzer, "Allgemeiner Benutzer", "")
 Person(kontentersteller, "Kontentersteller", "")

@@ -9,7 +9,7 @@ _Notiz: Funktional mit UML-Klassendiagramm. Technisch mit Verteilungsdiagramm (D
 
 [options="header", cols="1,5"]
 |===
-|Obejkt| Beschreibung
+|Entität| Beschreibung
 
 | Normaler Benutzer
 | Jeder Benutzer, welcher mit Hilfe von KI seine Arbeit mit dem Computer optimieren will.
@@ -19,6 +19,9 @@ _Notiz: Funktional mit UML-Klassendiagramm. Technisch mit Verteilungsdiagramm (D
 
 | Softwareentwickler
 | Softwareentwickler, welche mithilfe von Lumidora ihren Softwareentwicklungsprozess optimieren möchten.
+
+| Lumidora
+| Persönlicher Assistent auf Basis künstlicher Intelligenz
 
 |===
 
