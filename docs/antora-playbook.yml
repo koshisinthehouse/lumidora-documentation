@@ -4,10 +4,10 @@ site:
 content:
   sources:
     - url: https://github.com/koshisinthehouse/lumidora-documentation.git
-      branches: HEAD
+      branches: main
       start_path: docs
     - url: https://github.com/koshisinthehouse/lumidora-chatbot.git
-      branches: HEAD
+      branches: main
       start_path: docs
 ui:
   bundle:
