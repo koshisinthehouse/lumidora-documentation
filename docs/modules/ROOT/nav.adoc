@@ -1,7 +1,7 @@
 * xref:index.adoc[]
 
 * xref:prinzipien/prinzipien.adoc[]
-* xref:systemkontext/systemkontext.adoc[]
+* xref:sichten/systemkontext.adoc[]
 
 .Anforderungen
 * xref:anforderungen/funktional/funktionale-anforderungen.adoc[]
