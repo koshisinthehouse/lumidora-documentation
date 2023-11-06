@@ -1,20 +1,35 @@
 = Systemkontext
 :navtitle: Systemkontext
 
+Das nachfolgende Schaubild zeigt das Zusammenspiel von Lumidora mit der näheren Umwelt. Es ist eine Vogelperspektive und zeigt eine Gesamtübersicht der Verbindungen und Schnittstllen von und zu Lumidora. Lumidora wird als Blackbox gezeigt und erst in weiteren Diagrammen näher betrachtet.
+
+_Notiz: Funktional mit UML-Klassendiagramm. Technisch mit Verteilungsdiagramm (Deployment Diagram)_
+
+== Funktionaler Kontext
+
+[options="header", cols="1,5"]
+|===
+|Neighbor| Description
+
+| Dancer
+| Dancing people on theire search for other dancers use dancier. We plan that the system should be able to cope with at least 10000 dancing people.
+
+| School
+| Schools that offer dance courses, dance workshops and whatever dance related, wants to reach out for dancers.
+
+| Event Organisers
+| Organisors of all dance related events wants to find participants for their events.
+
+|===
 
 [plantuml]
 ----
-@startuml
-!include ../partials/diagrams/plantuml-stdlib/C4-PlantUML/C4_Context.puml
-
-LAYOUT_WITH_LEGEND()
-
-title Systemkontextdiagramm für lumidora
-
-Person(benutzer, "User", "")
-System(aiassistant, "lumidora", "Persönlicher Assistent auf Basis künstlicher Intelligenz")
-
-Rel(benutzer, aiassistant, "verwendet")
-@enduml
+include::example$systemkontext-funktional.plantuml[]
 ----
 
+== Technischer Kontext
+
+[plantuml]
+----
+include::example$systemkontext-technisch.plantuml[]
+----
