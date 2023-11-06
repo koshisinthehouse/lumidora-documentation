@@ -9,16 +9,16 @@ _Notiz: Funktional mit UML-Klassendiagramm. Technisch mit Verteilungsdiagramm (D
 
 [options="header", cols="1,5"]
 |===
-|Neighbor| Description
+|Obejkt| Beschreibung
 
-| Dancer
-| Dancing people on theire search for other dancers use dancier. We plan that the system should be able to cope with at least 10000 dancing people.
+| Normaler Benutzer
+| Jeder Benutzer, welcher mit Hilfe von KI seine Arbeit mit dem Computer optimieren will.
 
-| School
-| Schools that offer dance courses, dance workshops and whatever dance related, wants to reach out for dancers.
+| Kontentersteller
+| Benutzer, welche mithilfe von Lumidora Kontent erstellen möchten. Zum Beispiel Youtuber, Influencer
 
-| Event Organisers
-| Organisors of all dance related events wants to find participants for their events.
+| Softwareentwickler
+| Softwareentwickler, welche mithilfe von Lumidora ihren Softwareentwicklungsprozess optimieren möchten.
 
 |===
 
