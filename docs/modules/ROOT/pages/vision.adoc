@@ -1,5 +1,5 @@
-= Herzlich Willkommen
-:navtitle: Herzlich Willkommen
+= Vision
+:navtitle: Vision
 
 Dies ist die automatisch generierte Architektur Dokumentation von Lumidora.
 

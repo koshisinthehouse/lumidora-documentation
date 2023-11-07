@@ -1,10 +1,12 @@
-* xref:index.adoc[]
+* xref:vision.adoc[]
 
 * xref:prinzipien/prinzipien.adoc[]
 * xref:sichten/systemkontext.adoc[]
 
 .Anforderungen
-* xref:anforderungen/funktional/funktionale-anforderungen.adoc[]
+* Funktional
+** xref:anforderungen/funktional/funktionale-anforderungen.adoc[]
+** xref:anforderungen/funktional/anwendungsfaelle.adoc[]
 * Nicht Funktional
 ** xref:anforderungen/qualitaet.adoc[]
 ** Randbedingungen

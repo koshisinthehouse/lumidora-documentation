@@ -3,26 +3,29 @@
 
 LAYOUT_WITH_LEGEND()
 
-title Bausteindiagramm für lumidora
+title Bausteindiagramm
 
 Person(benutzer, "User", "")
 
-Container_Boundary(api, "lumidora") {
-    Component(tts, "TTS", "Text to Speech", "Wandelt Text in Sprache")
-    Component(stt, "STT", "Speech to Text", "Wandelt Sprache in Text")
-    Component(chatbot, "Chatbot", "Chatbot", "Herz des Systems. Hat Schnittstellen zu allen anderen Bausteinen")
-    Component(console, "Console", "Console", "Aufruf der Bausteine von der Konsole aus")
-    Component(vgen, "vgen", "Videogenerierung", "Generiert ein Video mithilfe einer Audiodatei und einem Portrait Bild.")
+component "Lumidora" as lumidora {
+
+    component "Webinterface" as webinterface
+    component "Kafka" as kafka
+    component "TTS" as tts
+    component "STT" as stt
+    component "Chatbot" as chatbot
+    component "vgen" as vgen
+
+    component "Console" as console
 
 }
 
-Rel(benutzer, chatbot, "benutzt", "")
-Rel(benutzer, console, "benutzt", "")
+Rel(benutzer, webinterface, "benutzt", "")
+Rel(webinterface, kafka, "benutzt", "")
 
-Rel(chatbot, console, "benutzt", "")
-
-Rel(console, tts, "benutzt", "")
-Rel(console, stt, "benutzt", "")
-Rel(console, vgen, "benutzt", "")
+Rel(chatbot, kafka, "benutzt", "")
+Rel(tts, kafka, "benutzt", "")
+Rel(stt, kafka, "benutzt", "")
+Rel(vgen, kafka, "benutzt", "")
 
 @enduml

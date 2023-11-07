@@ -1,6 +1,14 @@
 = Bausteinansicht
 :navtitle: Bausteinansicht
 
+
+    Component(, "STT", "Speech to Text", "Wandelt Sprache in Text")
+    Component(chatbot, "Chatbot", "Chatbot", "Herz des Systems. Hat Schnittstellen zu allen anderen Bausteinen")
+    Component(console, "Console", "Console", "Aufruf der Bausteine von der Konsole aus")
+    Component(vgen, "vgen", "Videogenerierung", "Generiert ein Video mithilfe einer Audiodatei und einem Portrait Bild.")
+
+
+
 [plantuml]
 ----
 include::example$bausteinansicht/bausteinansicht.plantuml[]

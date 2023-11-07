@@ -32,6 +32,18 @@ include::example$systemkontext/systemkontext-funktional.plantuml[]
 
 == Technischer Kontext
 
+[options="header", cols="1,5"]
+|===
+|Entität| Beschreibung
+
+| HTTP Client
+| HTTP Client jeglicher Art, kann auch ein oder mehrere Web-Frontends für menschliche Benutzer darstellen. Kann aber auch ein technischer HTTP Client sein, der von anderen Anwendungen aus das Lumidora System aufruft.
+
+| Lumidora
+| Persönlicher Assistent auf Basis künstlicher Intelligenz
+
+|===
+
 [plantuml]
 ----
 include::example$systemkontext/systemkontext-technisch.plantuml[]
