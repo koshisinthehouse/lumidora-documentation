@@ -1,7 +1,11 @@
 * xref:vision.adoc[]
 
 * xref:prinzipien/prinzipien.adoc[]
-* xref:sichten/systemkontext.adoc[]
+
+.Sichten
+** xref:sichten/systemkontext.adoc[]
+** xref:sichten/bausteinansicht.adoc[]
+
 
 .Anforderungen
 * Funktional

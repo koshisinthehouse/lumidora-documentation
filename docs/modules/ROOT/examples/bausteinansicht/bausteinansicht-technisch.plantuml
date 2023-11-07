@@ -1,0 +1,28 @@
+@startuml
+!include ../../partials/diagrams/plantuml-stdlib/C4-PlantUML/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+title Bausteindiagramm Technisch
+
+Person(benutzer, "User", "")
+
+component "Lumidora" as lumidora {
+    component "Webinterface" as webinterface
+    component "coordinator" as coordinator
+    component "TTS" as tts
+    component "STT" as stt
+    component "Chatbot" as chatbot
+    component "vgen" as vgen
+
+}
+
+Rel(benutzer, webinterface, "https api", "async")
+Rel(webinterface, coordinator, "Sendet Auftrag", "https/async")
+
+Rel(chatbot, coordinator, "liest (chatbot)", "kafka")
+Rel(tts, coordinator, "liest (tts)", "kafka")
+Rel(stt, coordinator, "liest (stt)", "kafka")
+Rel(vgen, coordinator, "liest (vgen)", "kafka")
+
+@enduml

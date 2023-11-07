@@ -1,15 +1,23 @@
 = Bausteinansicht
 :navtitle: Bausteinansicht
 
-
-    Component(, "STT", "Speech to Text", "Wandelt Sprache in Text")
-    Component(chatbot, "Chatbot", "Chatbot", "Herz des Systems. Hat Schnittstellen zu allen anderen Bausteinen")
-    Component(console, "Console", "Console", "Aufruf der Bausteine von der Konsole aus")
-    Component(vgen, "vgen", "Videogenerierung", "Generiert ein Video mithilfe einer Audiodatei und einem Portrait Bild.")
-
-
+[options="header", cols="1, 2, 5"]
+|===
+|Entität| Titel| Beschreibung
+| webinterface | Benutzeroberfläche | Wandelt Sprache in Text
+| stt | Speech to Text | Wandelt Sprache in Text
+| tts | Text to Speech | Wandelt Text in Sprache um
+| chatbot| Chatbot | Herz des Systems. Verwendet alle anderen Systeme
+| vgen | Videogenerierung | Generiert ein Video mithilfe einer Audiodatei und einem Portrait Bild.
+| coordinator | Koordinator | Stellt die Kommunikation zwischen den einzelnen Komponenten sicher
+|===
 
 [plantuml]
 ----
-include::example$bausteinansicht/bausteinansicht.plantuml[]
+include::example$bausteinansicht/bausteinansicht-funktional.plantuml[]
+----
+
+[plantuml]
+----
+include::example$bausteinansicht/bausteinansicht-technisch.plantuml[]
 ----
