@@ -14,9 +14,7 @@
 * Nicht Funktional
 
 ** xref:anforderungen/qualitaet/qualitaet.adoc[]
-*** xref:anforderungen/qualitaet/qualitaetsmerkmale.adoc[]
-*** xref:anforderungen/qualitaet/qualitaetsziel.adoc[]
-*** xref:anforderungen/qualitaet/qualitaetsszenarien.adoc[]
+*** xref:anforderungen/qualitaet/risiken.adoc[]
 
 ** Randbedingungen
 *** xref:anforderungen/nicht-funktional/organisatorische-randbdingungen.adoc[]

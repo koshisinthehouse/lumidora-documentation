@@ -1,0 +1,7 @@
+= Risiken
+:navtitle:Risiken
+
+Eines der entscheidenen Risiken ist, das die erstellten Inhalte von Lumidora keine ausreichend hohe Qualität haben. Es wird vorausgesetzt,
+das eingesetzte Open Source Tools, dessen aktuelle Ein- und Ausgabequalität noch nicht ausreichend ist, in Zukunft ihre Qualität steigern können.
+
+

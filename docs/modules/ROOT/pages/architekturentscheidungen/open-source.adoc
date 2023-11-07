@@ -16,10 +16,10 @@ Sie ist Projektentscheidend, da die wichtigste Eigenschaft des lumidora ist, nü
 Das Projekt soll nur auf Open Source Software beruhen und lokal, ohne Internet lauffähig sein.
 
 === Welche Qualitätsziele sind zu beachten
-Hohe Ausgabequalität der generierten Inhalte
+Hohe Ein- und Ausgabequalität der generierten Inhalte
 
 === Welche Risiken sind betroffen
-Das Risiko das die Ausgabequalität nicht ausreichend ist.
+Das Risiko das die Ein- und Ausgabequalität nicht ausreichend ist.
 
 == Annahmen
 === Welche Annahmen haben wir getroffen
@@ -31,7 +31,7 @@ Es ist möglich die einzelnen Sprachmodelle zu testen. Es gibt auch Vergleiche, 
 Wir können nicht überprüfen ob in Zukunft Open Source Sprachmodelle mindestens gleichwertig sind.
 
 === Mit welchen neuen Risiken müssen wir rechnen
-Nur das oben bereits ewähnte Risiko, das die Ausgabequalität nicht zufriedenstellend ist, weil Open Source Modelle nicht die Qualität erreichen wie vergleichbare Closed Source Modelle.
+Nur das oben bereits ewähnte Risiko, das die Ein- und Ausgabequalität nicht zufriedenstellend ist, weil Open Source Modelle nicht die Qualität erreichen wie vergleichbare Closed Source Modelle.
 
 == Alternativen
 
@@ -51,13 +51,13 @@ Die letze Option fällt direkt weg, da sie gegen einer unser wichtigsten Grunds�
 Bleiben die ersten beiden Optionen.
 
 == Ergebnis
-Wir nehmen immer Open Source Tools, auch wenn die Ausgabequalität aktuell noch schlechter ist als bei Closed Source Alternativen.
+Wir nehmen immer Open Source Tools, auch wenn die Ein- und Ausgabequalität aktuell noch schlechter ist als bei Closed Source Alternativen.
 
 === Wer hat die Entscheidung getroffen ?
 Dominik Bruhn
 
 === Wie ist sie begründet ?
-Aufwand vor Ausgabequalität, da das Projekt aktuell nur von einer Person gemacht wird.
+Aufwand vor Ein- und Ausgabequalität, da das Projekt aktuell nur von einer Person gemacht wird.
 
 === Wann wurde entschieden ?
 Am 02.11.2023
