@@ -6,7 +6,7 @@ LAYOUT_WITH_LEGEND()
 title Systemkontext Funktional "Was""
 
 Person(benutzer, "Allgemeiner Benutzer", "")
-Person(kontentersteller, "Kontentersteller", "")
+Person(kontentersteller, "Content Creator", "")
 Person(softwareentwickler, "Softwareentwickler", "")
 System(lumidora, "Lumidora", "Persönlicher Assistent auf Basis künstlicher Intelligenz")
 

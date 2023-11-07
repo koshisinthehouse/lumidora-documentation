@@ -31,8 +31,7 @@ Ein Qualitätsziel ist eine Anforderung bzgl. eines Qualitätsmerkmals _(Benutzb
 
 . Lumidora muss eine hohe Ein- und Ausgabequalität liefern. _(Zuverlässigkeit->Ausgereiftheit)_
 . Lumidora muss Arbeitsaufträge die gestellt wurden erledigen können. _(Stabilität und Fehlertoleranz)_
-. Benutzerfreundliche Verwendung der einzelnen Generierungsmodule.
-Der Benutzer kann möglichst flexibel Inhalte generieren und die einzelnen Module von Lumidora ansprechen. _(Benutzbarkeit)_
+. Der Benutzer kann möglichst flexibel Inhalte generieren und die einzelnen Module von Lumidora ansprechen. _(Benutzbarkeit)_
 
 [abstract]
 --

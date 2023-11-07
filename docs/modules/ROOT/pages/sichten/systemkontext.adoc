@@ -14,7 +14,7 @@ _Notiz: Funktional mit UML-Klassendiagramm. Technisch mit Verteilungsdiagramm (D
 | Normaler Benutzer
 | Jeder Benutzer, welcher mit Hilfe von KI seine Arbeit mit dem Computer optimieren will.
 
-| Kontentersteller
+| Content Creator
 | Benutzer, welche mithilfe von Lumidora Kontent erstellen möchten. Zum Beispiel Youtuber, Influencer
 
 | Softwareentwickler
