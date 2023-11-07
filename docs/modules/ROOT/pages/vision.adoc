@@ -3,6 +3,10 @@
 
 Dies ist die automatisch generierte Architektur Dokumentation von Lumidora.
 
+<a href="./lumidora.pdf">PDF Download</a>
+
+
+
 == Lumidora - Die Zukunft der Künstlichen Intelligenz
 
 === Einleitung
