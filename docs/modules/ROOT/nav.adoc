@@ -12,7 +12,12 @@
 ** xref:anforderungen/funktional/funktionale-anforderungen.adoc[]
 ** xref:anforderungen/funktional/anwendungsfaelle.adoc[]
 * Nicht Funktional
-** xref:anforderungen/qualitaet.adoc[]
+
+** xref:anforderungen/qualitaet/qualitaet.adoc[]
+*** xref:anforderungen/qualitaet/qualitaetsmerkmale.adoc[]
+*** xref:anforderungen/qualitaet/qualitaetsziel.adoc[]
+*** xref:anforderungen/qualitaet/qualitaetsszenarien.adoc[]
+
 ** Randbedingungen
 *** xref:anforderungen/nicht-funktional/organisatorische-randbdingungen.adoc[]
 *** xref:anforderungen/nicht-funktional/technische-randbedingungen.adoc[]

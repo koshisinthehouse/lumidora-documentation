@@ -1,0 +1,11 @@
+= Qualitätsanforderungen
+:navtitle: Qualität
+
+In diesem Abschnitt geht es um die Qualitätsanforderungen, welche an lumidora gestellt werden.
+Um Qualitätsanforderungen strukturiert zu erheben, helfen uns Qualitätsmodelle. Ein weitverbreitetes Qualitätsmodell ist der ISO 25010-Standard.
+
+
+
+== Risiken
+Eines der entscheidenen Risiken ist, das die erstellten Inhalte von Lumidora keine ausreichend hohe Qualität haben. Es wird vorausgesetzt,
+das eingesetzte Open Source Tools, dessen aktuelle Ausgabequalität noch nicht ausreichend ist, in Zukunft ihre Qualität steigern können.
