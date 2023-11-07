@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Systemkontext :: Lumidora Docs</title>
+    <title>Bausteinansicht :: Lumidora Docs</title>
     <meta name="generator" content="Antora 3.1.4">
     <link rel="stylesheet" href="../../../_/css/site.css">
   </head>
@@ -49,8 +49,17 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="../prinzipien/prinzipien.html">Prinzipien</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Sichten</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="systemkontext.html">Systemkontext</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="bausteinansicht.html">Bausteinansicht</a>
   </li>
 </ul>
   </li>
@@ -139,97 +148,72 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="../index.html">Lumidora</a></li>
-    <li><a href="systemkontext.html">Systemkontext</a></li>
+    <li>Sichten</li>
+    <li><a href="bausteinansicht.html">Bausteinansicht</a></li>
   </ul>
 </nav>
-<div class="edit-this-page"><a href="https://github.com/koshisinthehouse/lumidora-documentation/edit/main/docs/modules/ROOT/pages/sichten/systemkontext.adoc">Edit this Page</a></div>
+<div class="edit-this-page"><a href="https://github.com/koshisinthehouse/lumidora-documentation/edit/main/docs/modules/ROOT/pages/sichten/bausteinansicht.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Systemkontext</h1>
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>Das nachfolgende Schaubild zeigt das Zusammenspiel von Lumidora mit der näheren Umwelt. Es ist eine Vogelperspektive und zeigt eine Gesamtübersicht der Verbindungen und Schnittstllen von und zu Lumidora. Lumidora wird als Blackbox gezeigt und erst in weiteren Diagrammen näher betrachtet.</p>
-</div>
-<div class="paragraph">
-<p><em>Notiz: Funktional mit UML-Klassendiagramm. Technisch mit Verteilungsdiagramm (Deployment Diagram)</em></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_funktionaler_kontext"><a class="anchor" href="#_funktionaler_kontext"></a>Funktionaler Kontext</h2>
-<div class="sectionbody">
+<h1 class="page">Bausteinansicht</h1>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 16.6666%;">
-<col style="width: 83.3334%;">
+<col style="width: 12.5%;">
+<col style="width: 25%;">
+<col style="width: 62.5%;">
 </colgroup>
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Entität</th>
+<th class="tableblock halign-left valign-top">Titel</th>
 <th class="tableblock halign-left valign-top">Beschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Normaler Benutzer</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Jeder Benutzer, welcher mit Hilfe von KI seine Arbeit mit dem Computer optimieren will.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">webinterface</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Benutzeroberfläche</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Wandelt Sprache in Text</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kontentersteller</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Benutzer, welche mithilfe von Lumidora Kontent erstellen möchten. Zum Beispiel Youtuber, Influencer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">stt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Speech to Text</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Wandelt Sprache in Text</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Softwareentwickler</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Softwareentwickler, welche mithilfe von Lumidora ihren Softwareentwicklungsprozess optimieren möchten.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tts</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text to Speech</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Wandelt Text in Sprache um</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Lumidora</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Persönlicher Assistent auf Basis künstlicher Intelligenz</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">chatbot</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Chatbot</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Herz des Systems. Verwendet alle anderen Systeme</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vgen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Videogenerierung</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Generiert ein Video mithilfe einer Audiodatei und einem Portrait Bild.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">coordinator</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Koordinator</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Stellt die Kommunikation zwischen den einzelnen Komponenten sicher</p></td>
 </tr>
 </tbody>
 </table>
 <div class="imageblock kroki">
 <div class="content">
-<img src="https://kroki.io/plantuml/svg/eNp9j8FOwkAQhu_7FGtPJZH24gsAohKrEoEQT83SDnXT6WyzOxXlwTx548XcQk1Q1GQOM3--_5-ZM00ZNjnIKIp91cqyVujiXKvCqsrFNSripsK-4xz1Kh5d9KettLhLfJ-OTFUbAuKo9pAQyeDpYTFPl5P5TZqMr8f3l2FPCNaMIGdvjqEqDTG8srxqqGRtSKEMlsoFgRBTsM5QuAJqeAv2XAYDxAIq0ARWDjs58HrQ-4L3cb6sz0bcm25_SN8Nzqx5oyx4YqOz8mCZnYid6XBziE2lc2OVF5OubYE2cvdOqLNnf-DAOe3azVI1azlUfpLl7oMcd8CE2oN0AbT10eIR8OjXoxUvYDdAObCnWuj0x3_g3_77A_8EUpq0Sg==" alt="Diagram">
+<img src="https://kroki.io/plantuml/svg/eNqFkUtOwzAQhvc-hckqldpmwwXog4cIUNEWxCpykqG1cOzIngAFcRtuwsUYN4E2rdRakTwZf__vmfGJ1JmqcuD9fkRfKSxKoVyUS7GwonBRqYTGqlA9h7mSaTQ87U18an4TU5yMoFRmVYDGfkkUY_HZ0918ljxezS6TeHwxvh2FHcZQogI-EJVDkLoxL_h5pV9QGi1IOAHrjA5T0BV-gO3yYO7ABrQHZMCmK5IWycBUOhd2FaqqkLmxgs7jJgw6_JNxWkOjUUgNNnyDVGoE-ywyIHLQmJuUUurnO1tC0A3-rHqZktQIXdc2yYyxudQCja_qevPni9uIt_K7DoiO0Bm8I0fDpyVAtmyJCdgTOURCatjLvLwlImC_1qXA1HjhsI7aNTa5XdXrAjRxDzIHQyHYve48QbIvxu5BbT3SzoDrA2xezaNtoD3KNr3G_-s_RHpwPdJj0HqEx6C6-UPUL2wVDJ8=" alt="Diagram">
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_technischer_kontext"><a class="anchor" href="#_technischer_kontext"></a>Technischer Kontext</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 16.6666%;">
-<col style="width: 83.3334%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Entität</th>
-<th class="tableblock halign-left valign-top">Beschreibung</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP Client</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP Client jeglicher Art, kann auch ein oder mehrere Web-Frontends für menschliche Benutzer darstellen. Kann aber auch ein technischer HTTP Client sein, der von anderen Anwendungen aus das Lumidora System aufruft.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Lumidora</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Persönlicher Assistent auf Basis künstlicher Intelligenz</p></td>
-</tr>
-</tbody>
-</table>
 <div class="imageblock kroki">
 <div class="content">
-<img src="https://kroki.io/plantuml/svg/eNpVTs1OwkAQvvcpxp4gEXrxBRSIGFGJ1HBshu3YTpjdNt2psT6YJ259MbcCCSRz-L75fmZu2Blpc4LpNAlTY6OM4pOcsWjQ-qQWdNpamXjNhXfJ7G6yHlYfL6uAsznVUnWWnE7r4IoiZRWCTeeV7L5ySt8KKZnSsTclxFumOI6ioz4qVevMCIf4LcTLNF3D7J_FgT5X1qLLK2JX4I6gP-yogUvT-NwjreW8ajCkVic4NKyp8f2vEzZlSN57z8HtFLD9hAcMDPb9wXk9GZ7CtyJckPsJ1dE7yfWDF1fQd84kg-rjMwWsGQyKwBcjHLVQs1m-bbPV4nHxOh-Noz8LnIEI" alt="Diagram">
-</div>
-</div>
+<img src="https://kroki.io/plantuml/svg/eNp1kNFKwzAUhu_zFLFXG7j1xheYc6hQdbiM4dU4Tc_WsDQpyami4rubdi10HQ2BnOT__pPkv1FG6ipDPp_HYZbgSIH2cabg6KDwcanBUFXomadMqzRe3s3W9dH2JQn1fmmL0ho0NC8DxFiy-Hjbiv3uWTztk9Xj6vVhMmWMFGnk91B5QmXa3gUXKHOjvMwZW6Pz1kxSNBX9oLvl0daji8IaBb_sbuFRUhUqsw4iDp7rdsN_GQ-jh-0wVYbQHUBig371DoawtNZlygBZ17C9_RAVYtMgRH4obYRoJE80lJY5UGrp3PxcD5HPI5pGrwvG_hh7R93Lo__-kEpOVHoOpaojAv9tZMipdlxyvZ8EboMmQ-KL6kAOjlHXJu78TYP2fUOvVuiJd-q0Np_gcIL22pDHiCMoV3SIaIQOyhVdJzKC19IF_w-Ji-6M" alt="Diagram">
 </div>
 </div>
 </article>
