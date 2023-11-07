@@ -14,15 +14,16 @@ component "Lumidora" as lumidora {
     component "STT" as stt
     component "Chatbot" as chatbot
     component "vgen" as vgen
-
+    () kafka
 }
 
 Rel(benutzer, webinterface, "https api", "async")
-Rel(webinterface, coordinator, "Sendet Auftrag", "https/async")
+Rel(webinterface, coordinator, "sendet Auftrag", "https/async")
 
-Rel(chatbot, coordinator, "liest (chatbot)", "kafka")
-Rel(tts, coordinator, "liest (tts)", "kafka")
-Rel(stt, coordinator, "liest (stt)", "kafka")
-Rel(vgen, coordinator, "liest (vgen)", "kafka")
+Rel(chatbot, kafka, "liest (chatbot)", "async")
+Rel(tts, kafka, "liest/schreibt", "async")
+Rel(stt, kafka, "liest/schreibt", "async")
+Rel(vgen, kafka, "liest/schreibt", "async")
+Rel(coordinator, kafka, "liest/schreibt", "async")
 
 @enduml
