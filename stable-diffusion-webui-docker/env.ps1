@@ -9,9 +9,9 @@ Set-Location -Path dist -ErrorAction Stop
 git clone https://github.com/AbdBarho/stable-diffusion-webui-docker.git
 Set-Location -Path stable-diffusion-webui-docker -ErrorAction Stop
 
-docker compose --profile download up --build
+#docker compose --profile download up --build
 
-docker compose --profile auto up --build
+#docker compose --profile auto up --build
 
 # Wechsle zurück in das ursprüngliche Verzeichnis
 Set-Location -Path $PSScriptRoot
