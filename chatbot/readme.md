@@ -3,3 +3,4 @@ docker run -it --rm -e OPENAI_API_KEY="YOUR OPENAI KEY" -e OPENAI_API_BASE=http:
 .\start_windows.bat  --listen --extensions openai
 
 
+https://github.com/Atinoda/text-generation-webui-docker
