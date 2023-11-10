@@ -1,40 +1,29 @@
-FROM --platform=$TARGETPLATFORM nvidia/cuda:12.1.1-devel-ubuntu22.04
-LABEL maintainer="Martin Chan @osiutino"
+# Verwenden Sie das offizielle Python 3.9-Image als Basis
+FROM debian:11
 
-ARG BRANCH_OR_TAG=master
-ARG BUILD_DATE
-ARG BUILD_VERSION
+RUN apt update -y
+RUN apt install wget git python3 python3-venv libgl1 libglib2.0-0 -y
 
-LABEL org.label-schema.build-date=$BUILD_DATE
-LABEL org.label-schema.version="${BRANCH_OR_TAG}_${BUILD_VERSION}"
 
-RUN apt update && apt install -y --no-install-recommends \
-        bash ca-certificates wget git gcc sudo libgl1 libglib2.0-dev python3-dev google-perftools \
-        && rm -rf /var/lib/apt/lists/*
 
-RUN echo "LD_PRELOAD=/usr/lib/libtcmalloc.so.4" | tee -a /etc/environment
-
-RUN useradd --home /app -M app -K UID_MIN=10000 -K GID_MIN=10000 -s /bin/bash
-RUN mkdir /app
-RUN chown app:app -R /app
-RUN usermod -aG sudo app
-RUN echo 'app ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
-
-USER app
 WORKDIR /app/
 
-RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-$(uname -m).sh
-RUN bash ./Miniconda3-latest-Linux-$(uname -m).sh -b \
-    && rm -rf ./Miniconda3-latest-Linux-$(uname -m).sh
+RUN wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
 
-RUN git clone --depth 1 --branch $BRANCH_OR_TAG https://github.com/AUTOMATIC1111/stable-diffusion-webui.git /app/stable-diffusion-webui
+RUN ["chmod", "+x", "/app/webui.sh"]
+RUN /app/webui.sh -f --skip-torch-cuda-test
 
-ENV PATH /app/miniconda3/bin/:$PATH
 
-RUN conda install python="3.10" -y
 
-WORKDIR /app/stable-diffusion-webui
+# Erstellen Sie das Ausgabeverzeichnis innerhalb des Containers
+#RUN mkdir /output
 
-RUN touch install.log && \
-    timeout 2h bash -c "export TORCH_COMMAND=\"pip install torch==2.0.1 torchvision==0.15.2\" && ./webui.sh --skip-torch-cuda-test --no-download-sd-model 2>&1 | tee install.log &" && \
-    sleep 5 && while true; do grep -q "No checkpoints found." install.log && exit 0; grep -q "ERROR" install.log && exit 1; sleep 3; done
+# Kopieren Sie Ihre Python-Datei in das Image
+#COPY run.py /app/
+
+# Setzen Sie die Arbeitsverzeichnis im Container
+
+
+# Befehl zum Ausführen Ihrer Python-Datei mit der übergebenen Variable
+#CMD ["python", "run.py"]
+

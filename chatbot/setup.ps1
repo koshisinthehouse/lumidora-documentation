@@ -9,9 +9,11 @@ Set-Location -Path dist -ErrorAction Stop
 git clone https://github.com/oobabooga/text-generation-webui.git
 Set-Location -Path text-generation-webui -ErrorAction Stop
 
-#ln -s docker/{Dockerfile,docker-compose.yml,.dockerignore} .
-cp docker/.env.example .env
+#ln -s docker/{Dockerfilekokoko,docker-compose.yml,.dockerignore} .
+#cp docker/.env.example .env
+#Copy-Item -Path .\docker\.env.example -Destination .\docker\.env
 # Edit .env and set TORCH_CUDA_ARCH_LIST based on your GPU model
+#docker compose -f ./docker/docker-compose.yml up --build
 docker compose up --build
 
 # Wechsle zurück in das ursprüngliche Verzeichnis
