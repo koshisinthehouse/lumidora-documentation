@@ -11,4 +11,4 @@ $env:OPENAI_API_BASE="http://127.0.0.1:5000/v1"
 $env:OPENEDAI_EMBEDDING_MODEL="openchat_3.5.Q4_K_M.gguf"
 $env:OPENAI_API_KEY="[your api key]"
 
-gpt-engineer ./project
+gpt-engineer --verbose ./project
