@@ -7,7 +7,8 @@ docker run -it --rm -e OPENAI_API_KEY="YOUR OPENAI KEY" -e OPENAI_API_BASE=http:
 läuft mit python 3.8
 
 
-$env:OPENAI_API_BASE="127.0.0.1:5000"
-$env:OPENEDAI_EMBEDDING_MODEL="mistral-7b-openorca.Q4_0.gguf"
+$env:OPENAI_API_BASE="http://127.0.0.1:5000/v1"
+$env:OPENEDAI_EMBEDDING_MODEL="openchat_3.5.Q4_K_M.gguf"
 $env:OPENAI_API_KEY="[your api key]"
 
+gpt-engineer ./project
