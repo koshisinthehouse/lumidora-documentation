@@ -27,8 +27,10 @@ WORKDIR /app/stable-diffusion-webui/
 COPY ./models /app/stable-diffusion-webui/models
 
 RUN pip3 install xformers
+RUN pip3 install triton
+RUN python -m xformers.info output
 
-CMD ./webui.sh -f --listen
+CMD ./webui.sh -f --listen --xformers --no-half-vae
 
 EXPOSE 7860
 
