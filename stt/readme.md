@@ -1,0 +1,2 @@
+Whisper für Spracherkennung ausprobieren
+
