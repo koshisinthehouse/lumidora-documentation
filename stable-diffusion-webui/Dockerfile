@@ -1,4 +1,5 @@
 FROM nvidia/cuda:12.1.0-runtime-ubuntu22.04
+ENV DEBIAN_FRONTEND=noninteractive
 #FROM debian:11
 
 RUN apt update -y
@@ -11,6 +12,7 @@ RUN apt install python3-pip -y
 RUN apt install python-is-python3 -y
 RUN apt install libgl1 -y
 RUN apt install libglib2.0-0 -y
+RUN apt install ffmpeg -y
 
 RUN apt install libtcmalloc-minimal4 -y
 
@@ -26,12 +28,20 @@ WORKDIR /app/stable-diffusion-webui/
 # Problem beim laden von einer Festplatte bsp.: D:/resources/stable-diffusion/models !!!!
 COPY ./models /app/stable-diffusion-webui/models
 
-#RUN git clone https://github.com/deforum-art/deforum-for-automatic1111-webui ./extensions/deforum-for-automatic1111-webui
-RUN git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser ./extensions/stable-diffusion-webui-images-browser
+# SadTalker - START
+RUN pip3 install gfpgan
+RUN pip3 install realesrgan
 RUN git clone https://github.com/Winfredy/SadTalker ./extensions/SadTalker
-
 COPY ./SadTalker/checkpoints/ /app/stable-diffusion-webui/extensions/SadTalker/checkpoints/
 COPY ./SadTalker/gfpgan/ /app/stable-diffusion-webui/extensions/SadTalker/gfpgan/
+# SadTalker - END
+
+# extensions - START
+RUN git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser ./extensions/stable-diffusion-webui-images-browser
+RUN git clone -b v2.0 https://github.com/camenduru/sd-civitai-browser ./extensions/sd-civitai-browser
+RUN git clone https://github.com/Mikubill/sd-webui-controlnet ./extensions/sd-webui-controlnet
+RUN git clone https://github.com/camenduru/openpose-editor ./extensions/openpose-editor
+# extensions - END
 
 RUN pip3 install xformers
 RUN pip3 install triton

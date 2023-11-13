@@ -3,23 +3,16 @@
 <head>
     <title>Electron Frontend</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="renderer.js"></script>
 </head>
 <body>
 <div class="toolbar">
     <div class="icon" id="google-icon">
-        <img src="https://www.google.de/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Icon" />
+
+        <img id="clickableImage" src="https://www.google.de/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Icon" />
     </div>
 </div>
-<div class="main" id="main-content"></div>
 <script>
-    const { ipcRenderer } = require('electron');
-
-    const mainContent = document.getElementById('main-content');
-    const googleIcon = document.getElementById('google-icon');
-
-    googleIcon.addEventListener('click', () => {
-        mainContent.innerHTML = `<webview src="https://prompthero.com/"></webview>`;
-    });
 
 
 </script>

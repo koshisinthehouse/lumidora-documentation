@@ -1,26 +1,40 @@
-const { app, BrowserWindow, Menu, BrowserView } = require('electron');
+const { app, BrowserWindow, Menu, BrowserView, ipcMain, screen, ipcRenderer } = require('electron');
 
 let mainWindow;
 
+let view;
+
 function createWindow() {
     // Erstelle das Hauptfenster
+    const { width, height } = screen.getPrimaryDisplay().workAreaSize;
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: width,
+        height: height,
         webPreferences: {
             webviewTag: true,
             nodeIntegration: true,
         },
     });
 
-    const view = new BrowserView()
+    view = new BrowserView()
     mainWindow.setBrowserView(view)
-    view.setBounds({ x: 0, y: 0, width: 300, height: 300 })
+    view.setBounds({ x: 200, y: 0, width: 300, height: 300 })
     view.webContents.loadURL('https://electronjs.org')
 
 
     // Lade eine Internetseite (z.B. google.de) im Hauptfenster
-    mainWindow.loadURL('https://prompthero.com/');
+    mainWindow.loadFile('index.html');
+
+    // Handle IPC communication from renderer process
+    ipcMain.on('image-clicked', (event, arg) => {
+        console.log('Image clicked in main process!');
+        view.webContents.loadURL('https://google.de')
+    });
+
+
+
+
+
 
     // Erstelle ein Menü
     const template = [
@@ -39,7 +53,7 @@ function createWindow() {
     Menu.setApplicationMenu(menu);
 
     // Öffne die Entwicklertools (optional)
-    //mainWindow.webContents.openDevTools();
+    mainWindow.webContents.openDevTools();
 
     // Reagiere auf das Schließen des Hauptfensters
     mainWindow.on('closed', function () {
@@ -56,4 +70,5 @@ app.on('window-all-closed', function () {
 app.on('activate', function () {
     if (mainWindow === null) createWindow();
 });
+
 
