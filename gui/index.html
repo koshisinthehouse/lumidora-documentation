@@ -2,11 +2,12 @@
 <html>
 <head>
     <title>Electron Frontend</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
 <div class="toolbar">
     <div class="icon" id="google-icon">
-        <img src="google-icon.png" alt="Google Icon" />
+        <img src="https://www.google.de/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Icon" />
     </div>
 </div>
 <div class="main" id="main-content"></div>
@@ -17,7 +18,7 @@
     const googleIcon = document.getElementById('google-icon');
 
     googleIcon.addEventListener('click', () => {
-        mainContent.innerHTML = `<webview src="https://www.google.de"></webview>`;
+        mainContent.innerHTML = `<webview src="https://prompthero.com/"></webview>`;
     });
 
 
