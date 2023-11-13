@@ -23,17 +23,21 @@ RUN /app/webui.sh -f
 
 WORKDIR /app/stable-diffusion-webui/
 
-RUN git clone https://github.com/deforum-art/deforum-for-automatic1111-webui ./extensions/deforum-for-automatic1111-webui
-RUN git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser ./extensions/stable-diffusion-webui-images-browser
-
 # Problem beim laden von einer Festplatte bsp.: D:/resources/stable-diffusion/models !!!!
 COPY ./models /app/stable-diffusion-webui/models
+
+#RUN git clone https://github.com/deforum-art/deforum-for-automatic1111-webui ./extensions/deforum-for-automatic1111-webui
+RUN git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser ./extensions/stable-diffusion-webui-images-browser
+RUN git clone https://github.com/Winfredy/SadTalker ./extensions/SadTalker
+
+COPY ./SadTalker/checkpoints/ /app/stable-diffusion-webui/extensions/SadTalker/checkpoints/
+COPY ./SadTalker/gfpgan/ /app/stable-diffusion-webui/extensions/SadTalker/gfpgan/
 
 RUN pip3 install xformers
 RUN pip3 install triton
 RUN python -m xformers.info output
 
-CMD ./webui.sh -f --listen --xformers --no-half-vae --global-extensions-access
+CMD ./webui.sh -f --listen --xformers --no-half-vae --enable-insecure-extension-access
 
 EXPOSE 7860
 
