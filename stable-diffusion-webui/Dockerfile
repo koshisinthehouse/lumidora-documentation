@@ -1,4 +1,6 @@
-FROM nvidia/cuda:12.1.0-runtime-ubuntu22.04
+#FROM nvidia/cuda:12.1.0-runtime-ubuntu22.04
+FROM nvidia/cuda:12.3.0-runtime-ubuntu22.04
+
 ENV DEBIAN_FRONTEND=noninteractive
 #FROM debian:11
 
@@ -47,7 +49,8 @@ RUN pip3 install xformers
 RUN pip3 install triton
 RUN python -m xformers.info output
 
-CMD ./webui.sh -f --listen --xformers --no-half-vae --enable-insecure-extension-access
+#--xformers --xformers-flash-attention --no-half-vae --medvram-sdxl --lowvram --upcast-sampling --opt-sdp-attention --opt-sdp-no-mem-attention --opt-sub-quad-attention
+CMD ./webui.sh -f --listen --api --no-half-vae --enable-insecure-extension-access
 
 EXPOSE 7860
 
