@@ -5,7 +5,7 @@ LAYOUT_WITH_LEGEND()
 
 title Bausteindiagramm Technisch
 
-Person(benutzer, "User", "")
+Person(benutzer, "Benutzer", "")
 
 component "Lumidora" as lumidora {
     component "webinterface" as webinterface
