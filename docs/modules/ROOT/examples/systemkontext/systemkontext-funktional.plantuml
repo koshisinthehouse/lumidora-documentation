@@ -5,13 +5,9 @@ LAYOUT_WITH_LEGEND()
 
 title Systemkontext Funktional "Was""
 
-Person(benutzer, "Allgemeiner Benutzer", "")
-Person(kontentersteller, "Content Creator", "")
-Person(softwareentwickler, "Softwareentwickler", "")
+Person(benutzer, "Benutzer", "")
 System(lumidora, "Lumidora", "Persönlicher Assistent auf Basis künstlicher Intelligenz")
 
 Rel(benutzer, lumidora, "verwendet")
-Rel(kontentersteller, lumidora, "verwendet")
-Rel(softwareentwickler, lumidora, "verwendet")
 
 @enduml
