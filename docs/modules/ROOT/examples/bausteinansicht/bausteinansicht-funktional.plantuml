@@ -9,7 +9,6 @@ Person(benutzer, "User", "")
 
 
 System_Boundary(lumidora, "Lumidora") {
-    Container(webinterface, "Benutzeroberfläche","lumidora-client")
     Container(coordinator, "Koordinator", "lumidora-coordinator")
     Container(tts, "Text to Speech", "lumidora-tts")
     Container(stt, "Speech to Text", "lumidora-stt")
@@ -17,8 +16,10 @@ System_Boundary(lumidora, "Lumidora") {
     Container(vgen, "Videogenerator", "lumidora-vgen")
 }
 
-Rel(benutzer, webinterface, "benutzt", "")
-Rel(webinterface, coordinator, "benutzt", "")
+Rel(benutzer, tts, "benutzt", "")
+Rel(benutzer, stt, "benutzt", "")
+Rel(benutzer, chatbot, "benutzt", "")
+Rel(benutzer, vgen, "benutzt", "")
 
 Rel(chatbot, coordinator, "benutzt", "")
 Rel(tts, coordinator, "benutzt", "")
