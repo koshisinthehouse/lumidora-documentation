@@ -5,7 +5,7 @@ LAYOUT_WITH_LEGEND()
 
 title Bausteindiagramm Funktional
 
-Person(benutzer, "User", "")
+Person(benutzer, "Benutzer", "")
 
 
 System_Boundary(lumidora, "Lumidora") {
