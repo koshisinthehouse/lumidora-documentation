@@ -1,6 +1,33 @@
 = Bausteinansicht
 :navtitle: Bausteinansicht
 
+== Fachliche Sicht (Ebene 1)
+[plantuml]
+----
+include::example$bausteinansicht/bausteinansicht-funktional.plantuml[]
+----
+
+[options="header", cols="1, 2, 5"]
+|===
+|Entität| Titel| Beschreibung
+| Benutzer | Benutzer des Systems | Verwendet Lumidora für seine Zwecke
+| lumidora-stt | Speech to Text | Wandelt Sprache in Text
+| lumidora-tts | Text to Speech | Wandelt Text in Sprache um
+| lumidora-chatbot| Chatbot | Herz des Systems. Verwendet alle anderen Systeme
+| lumidora-vgen | Videogenerierung | Generiert ein Video mithilfe einer Audiodatei und einem Portrait Bild.
+| lumidora-coordinator | Koordinator | Stellt die Kommunikation zwischen den einzelnen Komponenten sicher
+|===
+
+
+== Technische Sicht (Ebene 1)
+
+[plantuml]
+----
+include::example$bausteinansicht/bausteinansicht-technisch.plantuml[]
+----
+
+
+
 [options="header", cols="1, 2, 5"]
 |===
 |Entität| Titel| Beschreibung
@@ -11,13 +38,3 @@
 | vgen | Videogenerierung | Generiert ein Video mithilfe einer Audiodatei und einem Portrait Bild.
 | coordinator | Koordinator | Stellt die Kommunikation zwischen den einzelnen Komponenten sicher
 |===
-
-[plantuml]
-----
-include::example$bausteinansicht/bausteinansicht-funktional.plantuml[]
-----
-
-[plantuml]
-----
-include::example$bausteinansicht/bausteinansicht-technisch.plantuml[]
-----
