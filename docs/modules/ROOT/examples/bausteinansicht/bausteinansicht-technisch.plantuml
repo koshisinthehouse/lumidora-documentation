@@ -8,11 +8,11 @@ title Bausteindiagramm Technisch
 Person(benutzer, "User", "")
 
 component "Lumidora" as lumidora {
-    component "Webinterface" as webinterface
+    component "webinterface" as webinterface
     component "coordinator" as coordinator
-    component "TTS" as tts
-    component "STT" as stt
-    component "Chatbot" as chatbot
+    component "tts" as tts
+    component "stt" as stt
+    component "chatbot" as chatbot
     component "vgen" as vgen
     () kafka
 }
