@@ -36,5 +36,5 @@ include::example$bausteinansicht/bausteinansicht-technisch.plantuml[]
 | tts | Text to Speech | Wandelt Text in Sprache um
 | chatbot| Chatbot | Herz des Systems. Verwendet alle anderen Systeme
 | vgen | Videogenerierung | Generiert ein Video mithilfe einer Audiodatei und einem Portrait Bild.
-| coordinator | Koordinator | Stellt die Kommunikation zwischen den einzelnen Komponenten sicher
+| kafka | Koordinator | Stellt die Kommunikation zwischen den einzelnen Komponenten sicher
 |===
