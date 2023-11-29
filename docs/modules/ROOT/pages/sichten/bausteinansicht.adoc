@@ -1,7 +1,7 @@
 = Bausteinansicht
 :navtitle: Bausteinansicht
 
-== Fachliche Sicht (Ebene 1)
+== Funktionale Sicht (Ebene 1)
 [plantuml]
 ----
 include::example$bausteinansicht/bausteinansicht-funktional.plantuml[]
