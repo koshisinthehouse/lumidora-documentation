@@ -1,29 +1,4 @@
-= Lumidora: Eine innovative Open-Source KI-Plattform
+= Lumidora-Projekt
 
-Lumidora ist ein Open-Source-Projekt, das verschiedene Open-Source-Technologien kombiniert, um vielseitige Anwendungen zu ermöglichen. Hier ist eine klare Übersicht:
+Das Lumidora-Projekt ist ein Open-Source-Projekt, das die aktuellen Möglichkeiten künstlicher Intelligenz im Open-Source-Bereich beobachtet und nutzt, um einen virtuellen Assistenten zu erstellen. Dieser Assistent, Lumidora genannt, entsteht durch verschiedene Open-Source-Projekte. Den aktuellen technischen Stand des Projektes können Sie hier nachlesen, und die neuesten Ergebnisse von Lumidora können Sie auf YouTube mitverfolgen: https://www.youtube.com/@lumidoraproject. Das Projekt testet verschiedene Open-Source-Projekte aus folgenden Bereichen: Chatbot, Text-to-Speech, Speech-to-Text, Audio-to-Video.
 
-== Funktionen und Anwendungen
-
-Chatbot: Lumidora ermöglicht lebendige Gespräche dank natürlicher Sprachverarbeitung.
-
-Content Creator: Lumidora erstellt automatisch Texte, Artikel, Geschichten und Gedichte.
-
-Text-to-Speech (TTS): Lumidora verwandelt Texte in lebensechte Sprachausgabe.
-
-Speech-to-Text (STT): Lumidora verwandelt gesprochene Worte in Text.
-
-Text-to-Video: Lumidora verwandelt Texte in Videos.
-
-Open Source Tools: Lumidora integriert verschiedene Open Source-Technologien und kann angepasst werden.
-
-== Technologie und Architektur
-
-Lumidora nutzt Open Source-Technologien, um natürliche Sprache zu verstehen und menschenähnliche Interaktionen zu ermöglichen.
-
-== Installation und Nutzung
-
-Die Dokumentation bietet Anleitungen zur Installation und Konfiguration von Lumidora auf verschiedenen Plattformen sowie Integrationsschritte in Projekte und Anwendungen.
-
-== Fazit
-
-Lumidora vereint verschiedene Open Source-Projekte, um die Interaktion mit Technologie und die Erstellung von Inhalten zu revolutionieren. Wir laden Entwickler, Kreative und Technologiebegeisterte ein, Lumidora zu erkunden und zu nutzen, um die Zukunft der KI mitzugestalten. Willkommen in der Welt von Lumidora, wo Innovation und Offenheit Standard sind.
